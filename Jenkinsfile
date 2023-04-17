@@ -1,4 +1,4 @@
-node {
+Node {
     env.CI = 'true'
     stage('Build') {
         sh 'npm install'
